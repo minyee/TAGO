@@ -15,7 +15,7 @@ import Stencil27PTrafficGenerator
 import TraceBasedTrafficGenerator
 
 NETBENCH_DIRECTORY = os.environ.get('NETBENCH_TAGO_DIRECTORY')
-
+traces_directory = os.getcwd() + "/traces"
 
 def develop_custom_toy_example():
 	topology = {
