@@ -2,7 +2,7 @@
 
 TAGO is a traffic-aware, globally-direct oblivious routing algorithm for reconfigurable HPC networks. 
 
-##Getting Started
+## Getting Started
 #### Software Dependencies
 TAGO simulation has the following dependencies that should be installed:
 1) Gurobi (https://www.gurobi.com/)
@@ -12,3 +12,8 @@ Gurobi is needed to optimize the network topology based on predicted traffic mat
 The original Netbench packet-level simulator can be found in (https://github.com/ndal-eth/netbench). TAGO/Netbench is built on top of the Netbench simulator, and it contains more developed modules to support the functionalities required by TAGO. Please follow the steps of setting up TAGO/Netbench, which will be required before proceeding to the next set of instructions.
 
 #### Run
+1) Please ensure that TAGO/Netbench is built succesfully before attempting to run the simulations here. 
+2) Before running the example simulation, set the environment variable $NETBENCH_TAGO_DIRECTORY. This will tell the simulator where TAGO/Netbench can be found.
+3) Next, we will run an example simulation based on Facebook's published Hadoop cluster traces from (https://conferences.sigcomm.org/sigcomm/2015/pdf/papers/p123.pdf)
+4) Run `python routing_simulator.py`
+5) The output from the Netbench simulator will be dumped into the user-defined directory in routing_simulator.py
