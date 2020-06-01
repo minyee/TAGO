@@ -1,3 +1,5 @@
+https://zenodo.org/badge/268355125.svg
+
 # TAGO
 
 TAGO is a traffic-aware, globally-direct oblivious routing algorithm for reconfigurable HPC networks. 
